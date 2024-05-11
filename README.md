@@ -38,83 +38,83 @@ source ~/.bashrc  # or source ~/.zshrc
 1. **Initialize a Repository (init):**
 - Initialize a repository in the current working directory:
 ```rust
-syncode init
+inx init
 ```
 - Or initialize a repository in a different directory:
 ```rust
-syncode init <"path/to/another/dir">
+inx init <"path/to/another/dir">
 ```
 2. **Clone a Repository (clone):**
 - Clone a repository to the current working directory:
 ```rust
-syncode clone <"path/to/source/repo">
+inx clone <"path/to/source/repo">
 ```
 - Or clone a repository to a different directory:
 ```rust
-syncode clone <"path/to/source/repo"> <"path/to/destination/repo">
+inx clone <"path/to/source/repo"> <"path/to/destination/repo">
 ```
 3. **Add Files to Tracking (add):**
 - Add files to be tracked:
 ```rust
-syncode add file1.txt file2.txt
+inx add file1.txt file2.txt
 ```
 4. **Remove Files from Tracking (remove):**
 - Remove a file from being tracked:
 ```rust
-syncode add file1.txt file2.txt
+inx add file1.txt file2.txt
 ```
 5. **Commit Changes (commit):**
 - Commit the current state of the repository:
 ```rust
-syncode commit
+inx commit
 ```
 6. **View Repository Status (status):**
 - View the status of tracked and untracked files:
 ```rust
-syncode status
+inx status
 ```
 7. **View Commit Log (log):**
 - View the commit history:
 ```rust
-syncode log
+inx log
 ```
 8. **View the differences/changes (diff):**
 - View the differences/changes between revisions:
 ```rust
-syncode diff <"rev1"> <"rev2">
+inx diff <"rev1"> <"rev2">
 ```
 9. **View current head/branch (heads):**
 - View the current head/branch of the repository:
 ```rust
-syncode heads
+inx heads
 ```
 10. **View a file (cat):**
 - View the content of a file:
 ```rust
-syncode cat <"file.txt">
+inx cat <"file.txt">
 ```
 11. **Check out a specific revision (checkout):**
 - Check out a specific revision:
 ```rust
-syncode checkout <"rev1">
+inx checkout <"rev1">
 ```
 12. **Merge 2 different revisions (merge):**
 - Merge 2 different revisions:
 ```rust
-syncode merge <"rev1"> <"rev2"> <"path/to/repo">
+inx merge <"rev1"> <"rev2"> <"path/to/repo">
 ```
 13. **Push a commit (push):**
 - Push a commit:
 ```rust
-syncode push <"remote"> <"local">
+inx push <"remote"> <"local">
 ```
 14. **Pull a commit (pull):**
 - Pull a remote repo to local repo:
 ```rust
-syncode push <"remote"> <"local">
+inx push <"remote"> <"local">
 ```
 15. **View a help message (help):**
 - View the help message:
 ```rust
-syncode help
+inx help
 ```
